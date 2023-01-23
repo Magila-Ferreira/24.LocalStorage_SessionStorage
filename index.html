@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Local Storage</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/estilo.css">
+        <!-- FUNÇÕES ÚTEIS LOCAL STORAGE E SESSION STORAGE  --> 
+        <!--<script src="JS/funcaoStorage.js"></script>-->
+
+        <!-- Uso prático STORAGE -->
+        <script src="JS/project.js" defer></script>
+    </head>
+    <body>
+        <h5>LocalStorage - Matheus Battist</h5>
+        <form id="name-form">
+            <h2>Preencha o formulário para continuar:</h2>
+
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Por favor, digite o seu nome..." required/>
+
+            <input type="submit" id="botao" value="Enviar"/>         
+        </form>
+        <div id="welcome">
+            <h2>Seja bem vinda(o), <br><span id="username"></span><span>!</span></h2>
+            <button type="button" id="limpar" value="Limpar">Sair</button>
+        </div>
+    </body>
+</html>

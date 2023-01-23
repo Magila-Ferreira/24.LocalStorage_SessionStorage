@@ -1,0 +1,45 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 21 de out. de 2022, 12:34:38
+    Author     : MMSF
+*/
+body {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+h5 {
+    margin: 0;
+}
+form {
+    margin: 0;
+}
+#name-form, #welcome {
+    text-align: center;
+    border: 2px solid saddlebrown;
+    padding-bottom: 20px;
+    max-width: 500px;
+}
+label {
+    font-weight: bolder;
+}
+#name {
+    min-width: 200px;
+}
+#limpar {
+    background: saddlebrown;
+    color: white;
+    font-weight: bolder;
+}
+#botao {
+    background: green;
+    color: white;
+    font-weight: bolder;
+}
+span {
+    color: saddlebrown;
+    font-weight: lighter;
+}
+
